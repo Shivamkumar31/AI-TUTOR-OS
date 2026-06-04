@@ -15,7 +15,8 @@ app.use(helmet());
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://ai-tutor-os.vercel.app'
+    //'https://ai-tutor-os.vercel.app',
+    'https://ai-tutor-62l9xtq1n-shivamkumar31s-projects.vercel.app'
   ],
   credentials: true
 }));
