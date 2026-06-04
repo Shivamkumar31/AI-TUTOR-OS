@@ -5,6 +5,9 @@ import { Toaster } from 'react-hot-toast';
 export const metadata: Metadata = {
   title: 'AI Tutor OS — Your Personal Free AI Teacher',
   description: 'Transform any PDF or notes into a personalized AI teacher. Voice, chat, quiz — 100% free.',
+   verification: {
+    google: 'e2525596656b33de',   // ← add this line
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
